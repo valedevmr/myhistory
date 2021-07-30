@@ -1,0 +1,560 @@
+
+/**********************FOTOS*****************************/
+/*          FOTO POR DEFECTO      */
+
+.defaultF{
+    background-image: url(../img/perfiles/perfildefault.png);
+    background-size: cover;
+    background-position: center center;
+   
+}
+
+/*FOTO NOW*/
+
+.snow{
+    background-image: url(../img/perfiles/christmas-1826009_1920.png);
+    background-size: cover;
+    background-position: center center;
+   
+}
+/*wwnada1*/
+.wanda{
+    background-image: url(../img/perfiles/wanda.png);
+    background-size: cover;
+    background-position: center center;
+   
+}
+/*wanda2*/
+.wanda2{
+    background-image: url(../img/perfiles/wanda2.png);
+    background-size: cover;
+    background-position: center center;
+   
+}
+/*iron man*/
+.iron-man{
+        background-image: url(../img/perfiles/ironman.png);
+        background-size: cover;
+        background-position: center center;
+        width: 100%;
+        height: 100%;
+}
+/*batman*/
+.batman{
+    background-image: url(../img/perfiles/batman.png);
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+}
+/*spiderman*/
+.spiderman{
+    background-image: url(../img/perfiles/spiderman2.png);
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+}
+/*mujermaravilla*/
+.superman{
+    background-image: url(../img/perfiles/superman.jpg);
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+}
+.maravilla{
+    background-image: url(../img/perfiles/wonderwoman.png);
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+}
+/*capitanAmerica*/
+.capitanamerica{
+    background-image: url(../img/perfiles/CapAmerica.jpg);
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+}
+/*capitanamarvel*/
+.marvel{
+    background-image: url(../img/perfiles/capMarvel.png);
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+}
+/*Angularjs*/
+.jAngular{
+    background-image: url(../img/perfiles/angular.png);
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+}
+.javascript{
+    background-image: url(../img/perfiles/js.png);
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+}
+.flash{
+    background-image: url(../img/perfiles/logoflash.png);
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+}
+.vaquero{
+    background-image: url(../img/perfiles/vaquero.jpg);
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+}
+.vaquera{
+    background-image: url(../img/perfiles/vaquera.jpg);
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+}
+/*********************************************************/
+/*tema por defecto*/
+
+.delete{
+    color: rgba(233, 217, 2, 0.986) !important;
+}
+.actualizar{
+    color: rgba(25, 171, 255, 0.705) !important;
+
+}
+.read{
+    color: rgb(17, 199, 0) !important;
+}
+
+body{
+    background-color: var(--body-defecto);
+    color:rgb(233, 227, 227);
+}
+ a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+}
+.actived{
+    color: rgb(211, 1, 1) !important;
+}
+
+body.foto{
+    border-radius: 50%;
+    border:1px solid rgb(187, 186, 186);
+}
+ .icon-color{
+    color:rgb(233, 227, 227);
+    font-size: 1.8rem !important;
+}
+.btn{
+    background-color: rgb(49, 49, 49);
+    border: 1px solid rgba(233, 227, 227, 0.404);
+}
+ input.nombre{
+    background-color: rgb(49, 49, 49);
+    outline: none;
+    border: none;
+    padding: 8px 0;
+    color: white;
+    border: 1px solid rgba(233, 227, 227, 0.404);
+}
+ ::placeholder{
+    color:rgb(233, 227, 227);
+    font-style: italic;
+}
+#themeSeleccionado{
+    background-color: rgb(49, 49, 49);
+    border: 1px solid rgba(233, 227, 227, 0.404);
+    color:rgb(233, 227, 227);
+}
+ .modal h2{
+    background-color: rgb(187, 0, 0);
+}
+.modal .btn:hover{
+    background-color: rgb(163, 38, 0);
+}
+
+
+
+
+
+
+/******************************************************/
+/*Tema floral*/
+.floral{
+    background-image: url(../img/floral.jpg);
+    color:black;
+    height: 100vh;
+    background-size: cover;
+}
+.floral #fototem{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid rgb(134, 24, 129);
+}
+.floral .menu{
+    background: -moz-linear-gradient(right,rgb(134, 24, 129),rgba(236, 44, 253, 0.267)) !important;
+    background: -webkit-linear-gradient(right,rgb(134, 24, 129),rgba(236, 44, 253, 0.267)) !important;
+    background: linear-gradient(right,rgb(134, 24, 129),rgba(236, 44, 253, 0.267)) !important;
+    width: 60% !important;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 3px;
+    
+}
+.floral .icon-color{
+    color: black;
+    font-size: 1.8rem;
+}
+
+
+.floral  .actived{
+    color: purple !important;
+}
+.floral button{
+    background-color: rgb(255, 253, 253);
+    color: black;
+    border:1px solid rgb(134, 24, 129) !important;
+}
+.floral #nombre{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border:1px solid rgb(134, 24, 129);
+}
+.floral #themeSeleccionado {
+    background-color: rgb(255, 255, 255) !important;
+    border:1px solid rgb(134, 24, 129);
+    color: black;
+}
+.floral ::placeholder{
+    color: black;
+}
+.floral tr{
+    background-color: rgba(255, 255, 255, 0.897);
+    border: 1px solid rgb(134, 24, 129);
+    color: rgb(0, 0, 0);
+}
+.floral  th{
+    background-color: rgb(134, 24, 129);
+}
+
+ /*tema arbol-azul*/
+
+ .merryazul{
+    background-image: url(../img/merrycri.jpg);
+    color:rgb(233, 227, 227);
+    height: 100vh;
+    background-size: cover;
+}
+.merryazul a{
+    text-decoration: none;
+    color:rgb(233, 227, 227);
+    font-weight: bold;
+}
+
+.merryazul .icon-color{
+    color:rgb(233, 227, 227);
+    font-size: 1.8rem;
+}
+.merryazul .foto{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border:1px solid rgb(187, 186, 186);
+}
+
+.merryazul button,
+.merryazul #nombre,
+.merryazul #themeSeleccionado,
+.merryazul #fototem,
+.merryazul .modal .btn{
+    background-color: rgba(0, 14, 139, 0.308);
+    color:white;
+    border:1px solid white !important;
+    border-radius: 4px
+}
+.merryazul option{
+    background-color: rgba(0, 11, 109, 0.979) !important;
+}
+.merryazul .modal{
+    background-color: rgba(15, 0, 99, 0.884) !important;
+}
+.merryazul .modal h2{
+    background-color: rgb(255, 255, 255);
+    color: rgb(15, 0, 99);
+}
+.merryazul.btn:hover{
+    background-color: rgb(255, 255, 255) !important;
+    color: rgb(15, 0, 99);
+}
+.merryazul .modal p{
+    color: white;
+}
+.merryazul tr{
+    
+    border: 1px solid rgb(255, 255, 255);
+    background-color:rgba(15, 0, 99, 0.61);
+}
+.merryazul  th{
+    background-color: rgb(255, 255, 255);
+    color: rgb(15, 0, 99);
+}
+
+
+/*arbol 2*/
+
+.arbol2{
+    background-image: url(../img/navidad2.jpg);
+    color:rgb(226, 223, 223);
+    height: 100vh;
+    background-size: cover;
+}
+.arbol2 a{
+    text-decoration: none;
+    color:rgb(226, 223, 223);
+    font-weight: bold;
+}
+
+.arbol2 .icon-color{
+    color:rgb(226, 223, 223);
+    font-size: 1.8rem;
+}
+.arbol2 .foto{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border:1px solid rgb(226, 223, 223);
+}
+.arbol2 .actived{
+    color:rgb(172, 250, 26) !important;
+} 
+.arbol2 button,
+.arbol2 #nombre,
+.arbol2 #themeSeleccionado,
+.arbol2 #fototem,
+.arbol2 .modal .btn{
+    background-color: rgba(9, 0, 59, 0.349) !important;
+    color:white;
+    border:1px solid white !important;
+    border-radius: 4px
+}
+.arbol2 option{
+    background-color: rgba(164, 245, 13, 0.904)!important;
+    color: black;
+    border-radius: 5px;
+    
+}
+.arbol2 .modal-read{
+    margin-top: 10px;
+}
+.arbol2 .modal p{
+    color: white;
+    border-bottom: 1px solid white;
+}
+.arbol2 .modal{
+    background-image: url(../img/navidad2.jpg) !important;
+    
+    background-position: center 0px;
+}
+.arbol2 .modal h2{
+    background-color: rgb(172, 250, 26);
+    color: black;
+}
+.arbol2 tr{
+    
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgba(9, 0, 59, 0.349);
+    color: rgb(255, 255, 255);
+}
+.arbol2  th{
+    background-color:rgb(255, 255, 255);
+    color:black;
+}
+
+/*temaflores*/
+
+.clima{
+    background-image: url(../img/clima.jpg);
+    color:var(--color-letra-clima-tema);
+    height: 100vh;
+    background-size: cover;
+}
+.clima a{
+    text-decoration: none;
+    color: var(--color-letra-clima-tema);
+    font-weight: bold;
+}
+.clima span{
+    font-size: 1.2rem;
+    font-weight: bold;
+    
+}
+
+.clima .icon-color{
+    color: var(--color-letra-clima-tema) !important;
+    font-size: 1.8rem;
+}
+.clima .foto{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border:1px solid var(--color-letra-clima-tema);
+}
+.clima .actived{
+    color:rgb(204, 99, 29) !important;
+} 
+.clima button,
+.clima #nombre,
+.clima #themeSeleccionado,
+.clima #fototem,
+.clima .modal .btn{
+    background-color: rgba(9, 0, 59, 0.349) !important;
+    color:white;
+    border:1px solid white !important;
+    border-radius: 4px
+}
+.clima option{
+    background-color: rgb(204, 99, 29)!important;
+    color: black;
+    border-radius: 5px;
+    
+}
+.clima .modal{
+    background-image: url(../img/clima.jpg) !important;
+    
+    background-position: center 0px;
+    padding-top: 0;
+}
+.clima .modal-read{
+    margin-top: 10px;
+}
+.clima .modal h2{
+    background-color: rgb(204, 99, 29);
+    color: black;
+}
+
+.clima tr{
+    
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgba(9, 0, 59, 0.349);
+    color: rgb(255, 255, 255);
+    font-size: 1.1rem;
+    font-weight: lighter;
+    font-family: monospace;
+}
+.clima  th{
+    background-color:rgb(255, 255, 255);
+    color:black;
+  
+}
+
+.clima .delete{
+    color: rgba(233, 217, 2, 0.986) !important;
+}
+
+.clima .actualizar{
+    color: rgba(25, 171, 255, 0.705) !important;
+
+}
+.clima .read{
+    color: rgb(17, 199, 0) !important;
+}
+
+/*tema card*/
+.camioneta{
+    background-image: url(../img/camioneta.jpg);
+    color:var(--color-letra-clima-tema);
+    height: 100vh;
+    background-size: cover;
+   background-position: center center;
+   color: black;
+
+}
+.camioneta a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.camioneta span{
+    font-size: 1.2rem;
+    font-weight: bold;
+    
+}
+
+.camioneta .icon-color{
+    color:black !important;
+    font-size: 1.8rem;
+}
+.camioneta .foto{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border:1px solid var(--color-letra-clima-tema);
+}
+.camioneta .actived{
+    color:rgb(163, 38, 0) !important;
+} 
+
+.camioneta button,
+.camioneta #nombre,
+.camioneta #themeSeleccionado,
+.camioneta #fototem,
+.camioneta .btn{
+    background-color: rgba(255, 255, 255, 0.267) !important;
+    color:black;
+    border:1px solid black !important;
+   
+}
+.camioneta option{
+    background-color: rgb(204, 99, 29)!important;
+    color: black;
+    border-radius: 5px;
+    
+}
+.camioneta ::placeholder{
+    color: black;
+}
+.camioneta .modal{
+    background-image: url(../img/camioneta.jpg) !important;
+    
+    background-position: center center;
+
+    padding-top: 0;
+}
+.camioneta .modal-read{
+    margin-top: 10px;
+}
+.camioneta tr{
+    
+    border: 1px solid black;
+    background-color: rgba(255, 255, 255, 0.267);
+    color: rgb(0, 0, 0);
+    font-size: 1.1rem;
+    font-family: monospace;
+}
+
+.clima .delete{
+    color: rgba(233, 217, 2, 0.986) !important;
+}
+
+.clima .actualizar{
+    color: rgba(25, 171, 255, 0.705) !important;
+
+}
+.clima .read{
+    color: rgb(17, 199, 0) !important;
+}

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/temas.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/jquery.modal.min.css">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+
+<body class="" id="theme">
+
+    <div class="container center-content mt-5">
+        <header class=" flex-contain center-content">
+            <div class=" flex logo-config">
+                <div>
+                    <h3 class="text-center sitename">MyHistory </h3>
+                </div>
+                <div>
+                    <a href="configuracion.html"><i class="material-icons icon-color">settings</i></a>
+                </div>
+            </div>
+            <div class="flex menu container center-content mt-4">
+                <div class="opciones">
+                    <a href="index.html"><span>Inicio</span></a>
+                </div>
+                <div class="opciones">
+                    <a href="" class="actived"><span>Escribir</span></a>
+                </div>
+            </div>
+
+        </header>
+    </div>
+    <!--secciond e foto de perfil, nombre y imagen principal-->
+    <div class=" center-content mt-6">
+        <div class="mt-6">
+            <div class="container center-content">
+                <div class="container center-content">
+                    <input type="text" placeholder="Escribe título max-20 caracteres" class="input-100 titulo"
+                        maxlength="20">
+                    <textarea placeholder="Escribir historia..." id="historia"></textarea>
+                    <div class="guardar ">
+
+                    </div>
+                    <div class="flex">
+                        <button class="btn btn-medium" id="guardar">Guardar</button>
+                        <button class="btn btn-medium" id="limpiar">Limpiar</button>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="center-content hiden container mt-6">
+                <div class="container center-content">
+                    <button class="btn listar btn-large">Listar historias</button>
+                </div>
+                <div class="container-table">
+                    
+                    <table class="tableta">
+                        <tr>
+                            <th>
+                                Título
+                            </th>
+                            <th>
+                                ver
+                            </th>
+                            <th>
+                                edit
+                            </th>
+                            <th>
+                                Elim
+                            </th>
+                        </tr>
+                        <tbody class="tbody">
+                           
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+            <div id="ver" class="modal">
+                <div class="flex center-content modal-read">
+                     <p class="titulo2"></p>
+                     <p class="fecha"></p>
+                </div>
+                 <div class="container center-content mt-4">
+                     <div class="container center-content avatares">
+                         <p class="historia"></p>
+                     </div>
+                 </div>
+                 <div class="container center-content mt-4 pb-3">
+                     <a href="#" class="btn" rel="modal:close">Cerrar</a>
+                 </div>
+            </div>
+            <div id="update" class="modal">
+                <div class="flex center-content modal-read">
+                     <input type="text" class="input-100 titulo" value="hehehe" maxlength="20">
+                </div>
+                 <div class="container center-content mt-4">
+                     <div class="container center-content avatares">
+                        <textarea placeholder="" id="historiaupdate"></textarea>
+                     </div>
+                 </div>
+                 <div class="container center-content mt-4 pb-3">
+                     <a href="#" class="btn" rel="modal:close">Cerrar</a>
+                 </div>
+             </div>  
+               
+        </div>
+        
+
+    </div>
+
+    <script src="js/escribir.js" type="module"></script>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/jquery.modal.min.js"></script>
+    <script src="js/escribir.js" type="module"></script>
+    <script src="js/moment-with-locales.js"></script>
+</body>
+
+</html>

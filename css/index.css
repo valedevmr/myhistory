@@ -1,0 +1,386 @@
+:root{
+    --body-defecto: rgb(20, 20, 20);
+    --active--menud: rgb(207, 91, 91);
+    --color-letra-clima-tema:white;
+   
+}
+
+/**/
+
+/*estilos generales*/
+
+
+.titulo2,.fecha{
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 5px;
+    border-bottom: 1px solid black;
+    margin-bottom: 5px;
+    color:black;
+    font-size: 1.3rem;
+}
+.titleUpdate{
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 5px;
+    border-bottom: 1px solid black;
+    margin-bottom: 5px;margin-top: 5PX;
+    color:black;
+    font-size: 1.3rem;
+}
+.titulo::placeholder{
+    
+    text-align: center;
+    line-height: 10em;
+    color: black !important;
+
+}
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color:rgb(49, 49, 49);
+    color:white;
+    font-family: monospace;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    
+}
+
+#historia , #historia::placeholder{
+    height: 130px;
+    overflow: auto;
+    min-height: 50px;
+    color: black;
+    line-height: 3em;
+    
+    
+
+}
+.historia{
+    color:black;
+    padding-bottom: 10px;
+}
+::placeholder{
+    text-align: center;
+}
+
+
+
+td{
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.container-table{
+    height: 250px;
+    overflow-y: auto;
+    padding-top: 0;
+    margin: 0;
+    width: 95%;
+    margin: auto;
+    position: relative;
+    padding-bottom:50px ;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    position: a;
+}
+.stick{
+    position: fixed;
+    z-index: 1;
+}
+  
+  
+.ocultar{
+    display: none;
+}
+
+  .guardar{
+      height: 25px;
+      width: 100%;
+}
+textarea{
+      width: 100%  ;
+      height: 130px;
+      box-sizing: border-box;
+      outline: none;
+      padding: 5px 5px;
+}
+.input-100{
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0 0 5px 0;
+    outline: none;
+    padding: 5px 5px;
+
+}
+.input-100::placeholder{
+    line-height: 2em;
+}
+
+.underline{
+    background-color: rgba(41, 41, 41, 0.856) !important;
+    
+}
+h3.sitename{
+    font-family: 'Courier New', Courier, monospace !important;
+    font-size: 2.1rem !important;
+}
+.ver-f{
+    font-size: 1.4rem;
+}
+.opciones a{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+}
+
+.foto{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border:1px solid rgb(233, 227, 227);
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 92% !important;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.center-content{
+    margin: auto;
+}
+.text-center{
+   text-align: center;
+}
+
+
+/*Header*/
+
+.logo-config , .menu{
+    
+    width: 100%;
+}
+.mt-4{
+    margin-top: 5%;
+}
+.mt-5{
+    margin-top: 12%;
+}
+.mt-6{
+    margin-top: 17%
+}
+.pb-4{
+    padding-bottom: 40px;
+}
+.pb-3{
+    padding-bottom: 20px;
+}
+.name div, .theme div{
+    font-size: 1rem;
+}
+.logo-config div:first-child{
+    box-sizing: border-box;
+    width: 85%;
+    height: 40px;
+    padding-left: 17%;
+    line-height: 2em;
+    
+}
+.logo-config div:last-child{
+    width: 15%;
+    height: 40px;
+    box-sizing: border-box;
+    padding-left: 2%;
+    padding-top: 1%;
+}
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+/*foto de perfil y nombre*/
+
+.col-12{
+    width: 100% !important;
+}
+.nota{
+    background-image: url(../img/myhis.png);
+    width: 85%;
+    height: 180px;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+
+.nota p{
+    width: 70%;
+    position: absolute;
+    top: 25%;
+    color: black;
+    left: 20%;
+}
+/*******************************************/
+
+/******** configuracion foto, nombre y tema*/
+
+
+.menuedit{
+    position: relative;
+}
+
+.btn{
+
+    border-radius: 3px; 
+    padding: 8px 10px;
+    font-weight: bolder;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    color: white;
+    outline: none;
+
+}
+.tamanioconfig{
+    width: 85% !important;
+}
+.btn-medium{
+    width: 50%;
+    
+}
+.error{
+    width: 80%;
+    color: red;
+    text-align: center;
+    margin: auto;
+}
+#fototem.tamanioconfig{
+    width: 70% !important;
+}
+
+.fotoedit{
+    width: 55%;
+    height: 100px;
+    border-radius: 50%;
+}
+.modal{
+    background-color:var(--body-defecto);
+    padding: 0 0;
+    max-height: 400px !important;
+    overflow-y: auto;
+    padding-top: 5px;
+}
+.modal h2{
+    text-align: center;   
+}
+#nombre{
+    padding: 5px 0;
+    width: 85%;
+    text-align: center;
+}
+#themeSeleccionado{
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    width: 85%;
+    border: 1px solid rgba(233, 227, 227, 0.822);
+}
+.n-col-6{
+    width: 48%;
+    height: 80px;
+    margin-bottom: 10px;
+    margin-left: 1px;
+}
+
+.n-col-7{
+   
+
+    width: 60%;
+    justify-content: center;
+}
+
+.n-col-5{
+    width: 40%;
+    justify-content: center;
+}
+@media (min-width:790px){
+    
+    .mt-5{
+        margin-top: 5%;
+    }
+    
+    .opciones a{
+        font-size: 1.4rem;
+    }
+    .nota p{
+        top: 30%;
+        font-size: 2rem;
+    }
+    .nota {
+        
+        width: 60% !important;
+        margin-bottom: 40px;
+        height: 250px!important;
+    }
+    .mt-6{
+        margin-top: 7% !important;
+    }
+    .container{
+        width: 70%!important;
+    }
+    .container-table {
+        height: 250px;
+        
+        width: 70%;
+        
+    }
+    #fototem.tamanioconfig:hover{
+        width: 75% !important;
+    
+        border: 3px solid !important;
+        cursor: pointer;
+    }
+    .btn:hover{
+        border: 3px solid !important;
+        cursor: pointer;
+    }
+}
+@media (min-width:600px){
+    .fotoedit{
+        height: 200px;
+    }
+    .mt-6{
+        margin-top: 12%;
+    }
+    #fototem.tamanioconfig{
+        width: 75% !important;
+    }
+    .btn{
+        height: 50px;
+        text-align: center;
+    }
+    a.btn.tamanioconfig{
+        line-height: 2.5em;
+        height: 40px;
+    }
+}
+@media (min-width:360px){
+    .nota{
+        width: 70% ;
+        height: 170px;
+    }
+    .nota p{
+        top: 30%;
+    }
+    
+}
+.modal a.close-modal{
+    display: none !important;
+}

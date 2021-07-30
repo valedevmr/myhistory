@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/jquery.modal.min.css">
+    <link rel="stylesheet" href="css/temas.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body class="" id="theme" >
+
+    <div class="container center-content mt-5">
+        <header class=" flex-contain center-content">
+            <div class=" flex logo-config">
+                <div>
+                    <h3 class="text-center sitename ">MyHistory </h3>
+                </div>
+                <div>
+                    <a href=""><i class="material-icons icon-color actived">settings</i></a>
+                </div>
+            </div>
+            <div class="flex menuecontainer menu center-content mt-4">
+                <div class="opciones">
+                    <a href="index.html">Inicio</a>
+                </div>
+                <div class="opciones">
+                    <a href="escribir.html" class="">Escribir</a>
+                </div>
+
+            </div>
+
+        </header>
+    </div>
+    <!--seccion   de foto de perfil, nombre y imagen principal-->
+    <div class="container center-content mt-6 pb-4">
+
+        <div class="container center-content">
+            <h3 class="text-center ver-f">Configuración</h3>
+        </div>
+        <div class="container flex center-content mt-6">
+            <div class="n-col-7">
+                <div class="fotoedit center-content" id="photo">
+
+                </div>
+            </div>
+            <div class="n-col-5 center-content flex">
+                <a class="btn tamanioconfig" href="#ex1" rel="modal:open" id="fototem">Cambiar</a>
+                <div id="ex1" class="modal">
+                    <h2>Perfiles</h2>
+                    <div class="container center-content mt-4">
+                        <div class="container center-content flex avatares">
+                            <img src="img/perfiles/batman.png" alt="" class="n-col-6 perfil batman">
+                            <img src="img/perfiles/CapAmerica.jpg" alt="" class="n-col-6 perfil capitanamerica">
+                            <img src="img/perfiles/capMarvel.png" alt="" class="n-col-6 perfil marvel">
+                            <img src="img/perfiles/christmas-1826009_1920.png" alt="" class="n-col-6 perfil snow">
+                            <img src="img/perfiles/angular.png" alt="" class="n-col-6 perfil jAngular">
+                            <img src="img/perfiles/ironman.png" alt="" class="n-col-6 perfil iron-man">
+                            <img src="img/perfiles/js.png" alt="" class="n-col-6 perfil javascript">
+                            <img src="img/perfiles/logoflash.png" alt="" class="n-col-6 perfil flash">
+                            <img src="img/perfiles/perfildefault.png" alt="" class="n-col-6 perfil default">
+                            <img src="img/perfiles/spiderman2.png" alt="" class="n-col-6 perfil spiderman">
+                            <img src="img/perfiles/superman.jpg" alt="" class="n-col-6 perfil superman">
+                            <img src="img/perfiles/vaquera.jpg" alt="" class="n-col-6 perfil vaquera">
+                            <img src="img/perfiles/vaquero.jpg" alt="" class="n-col-6 perfil vaquero">
+                            <img src="img/perfiles/wanda.png" alt="" class="n-col-6 perfil wanda">
+                            <img src="img/perfiles/wanda2.png" alt="" class="n-col-6 perfil wanda2">
+                            <img src="img/perfiles/wonderwoman.png" alt="" class="n-col-6 perfil maravilla">
+                            
+                            
+                        </div>
+                    </div>
+                    <div class="container center-content mt-4 pb-3">
+                        <a href="#" class="btn" rel="modal:close">Cerrar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container name flex flex-contain center-content mt-6">
+            <div class="n-col-7 flex">
+                <input type="text" class="nombre" placeholder="Ingresa nuevo nombre" id="nombre">
+            </div>
+            <div class="n-col-5 center-content flex">
+                <button class="btn editnombre tamanioconfig">Editar</button>
+            </div>
+        </div>
+        <div class="container theme flex flex-contain center-content mt-6">
+            <div class="n-col-7 flex">
+                <select name="" id="themeSeleccionado">
+                    <option value="" disabled selected>Selecionar tema</option>
+                    <option value="floral">Floral</option>
+                    <option value="merryazul">Árbol Azul</option>
+                    <option value="arbol2">Noche Fantástica</option>
+                    <option value="clima">Tarde Nublada</option>
+                    <option value="camioneta">Camioneta</option>
+                    <option value="bodydefecto">Por Defecto</option>
+                </select>
+            </div>
+            <div class="n-col-5 center-content flex">
+                <button class="btn tamanioconfig" id="btn_tema">Guardar</button>
+                
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/jquery.modal.min.js"></script>
+    <script src="js/configuracion.js" type="module"></script>
+   
+</body>
+
+</html>
